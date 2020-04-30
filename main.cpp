@@ -1,22 +1,14 @@
-#include <iostream>
 #include "MultithreadingExample.h"
 #include "ReferenceExample.h"
-
-using namespace std;
-
-void implicitInc(int &);
-
-void explicitInc(int *);
-
-void mutator(const int &, int *);
+#include "SmartPointer.h"
 
 int main() {
 
 //    ReferenceExample referenceExample;
 //    referenceExample.run();
 
-    MultithreadingExample test;
-    test.run();
+//    MultithreadingExample test;
+//    test.run();
 
-
+    SmartPointer::run();
 }
